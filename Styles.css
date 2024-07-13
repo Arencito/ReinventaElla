@@ -114,7 +114,7 @@ padding: 20px;
 
     animation: reveal linear both;
     animation-timeline: view();
-    animation-range: entry 5% cover 40%;
+    animation-range: entry 5% cover 50%;
     z-index: 1;
 
 }
@@ -371,6 +371,16 @@ footer
 .twitter
 {
     color: rgb(0, 0, 0);
+}
+
+.instagram
+{
+  color: black
+}
+
+.tiktok 
+{
+    color: black;
 }
 
 .incentivo
