@@ -15,7 +15,7 @@
 </head>
 <body>
 
-    
+    <div id="progress"></div>
     <header class="titulo"> 
         <a href="#header"><img src="./Images/Banner.png" alt="banner"></a>
     </header>
@@ -40,6 +40,8 @@
             capacidades y aptitudes permitiendote hacer realidad esa idea que llevas pensando tanto tiempo.
           </p>
         </div>
+
+        
 
     
     <div class="swiper mySwiper">
@@ -163,7 +165,18 @@
 </div>
 </div>
 </div>
-
+<div class="incentivo">
+            <h3>
+             ¿Qué estás esperando? ¡Anímate a ser parte de este proyecto y formemos una comunidad donde tú seas 
+             la protagonista de tu própia historia de éxito!
+            </h3>
+            <h4>
+                A continuación, te dejamos la seccíon de comentaríos. ¡Agradecemos mucho tu apoyo!
+            </h4>
+            <h5>
+                “Si lo puedes soñar, lo puedes lograr. Somos capaces de lograr lo que nos proponemos siempre y cuando creamos en nosotras mismas”.
+            </h5>
+        </div>
 <dialog  id="popup">
 
     <section class="seccion">
@@ -192,12 +205,76 @@
 
 </dialog>
 
+<section class="seccion2">
+    <div id="comments">
+      <div class="text6">
+      <h4>
+          ¡Nos encantaría saber tu opinión!
+      </h4>
+      </div>
+      <div class="container mt-4" id="body">
+          <div class="row">
+              <div class="col-md-5">
+                  <div class="card">
+                      <div class="card-header">
+                          <h2>Agregar un comentario</h2>
+                      </div>
+                      <div class="card-body">
+                          <form id="formulario">
+                              <div class="form-group">
+                                  <input type="text" id="name" class="form-control my-3" placeholder="Ingresar Nombre">
+                              </div> 
+                              <div class="form-group">
+                                  <textarea id="commit" class="form-control my-3" placeholder="Ingresar comentario"></textarea>
+                              </div>
+                             <button type="submit" id="submit" class="btn btn-primary">Agregar</button>
+                          </form>
+                          <div class="text7">
+                            <p><h6>¡Esto nos ayudará a darte una mejor experiencia, Gracias!</h6></p>
+                          </div>
+                      </div>
+                  </div> 
+
+      <footer class="footer" id="footer">
+      <div class="text8">
+       <p>Nuestras Redes Sociales</p>
+      </div>
+      <div class="cont">
+      <a href="https://github.com/Arencito" class="github" target="_blank">
+          <i class="fa-brands fa-github"></i>
+      </a>
+      <a href="https://x.com/_Arencito_" class="twitter" target="_blank">
+          <i class="fa-brands fa-x-twitter"></i>
+      </a>
+      <a href="https://www.facebook.com/luisantonio.rosas.520" class="facebook" target="_blank">
+          <i class="fa-brands fa-facebook"></i>
+      </a>
+  
+  </div>
+</footer>
+              </div>
+              <div class="col-md-6">
+                  <table class="crud--table">
+                      <thead>
+                        <tr>
+                          <th class="table--header">Nombre</th>
+                          <th class="table--header">Comentario</th>
+                        </tr>
+                      </thead>
+                      <tbody id="tableBody" class="table--body">
+
+                      </tbody>
+                  
+              </div>
+        
+          </section>
 
 
 
 
 
-<div id="progress"></div>
+
+
 <script src="./functions.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
@@ -218,7 +295,7 @@
 
     })
 </script>
-
+<script src="./app.js"></script>
 </body>
 </html>
 
