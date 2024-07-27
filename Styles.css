@@ -1,6 +1,6 @@
 body
 {
-    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
     margin: 10px;
     padding: 10px;
     height: 100%;
@@ -24,38 +24,43 @@ body
 
 @keyframes progress-grow{
     from {
-        width: 0%;
+        width: 1%;
     }
     to{
         width: 100%;
     }
 }
 
+
+
+
 .titulo img
-{
-    
-    
+{   
     border-radius: 10px;
     position:fixed;
     justify-content: center;
     padding: 10px;
     margin:10px ;
+    
+
 
     animation: enhance-header linear both;
     animation-timeline: scroll(root block);
     animation-range: 0px 350px;
     z-index: 1;
 }
+
 @keyframes enhance-header {
     from {
         border-radius: 10px;
-        width: 350px;
+        width: 300px;
        justify-content: center;
+       background:linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
     }
     to {
-        background: rgba(255, 255, 255, 0.4);
+        background:linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
         backdrop-filter: blur (5px);
-        border-radius: 10px;
+        border-radius: 50px;
         width: 150px;
         
     }
@@ -74,6 +79,13 @@ body
 {
 font-style: oblique;
 padding: 20px;
+color: whitesmoke;
+}
+
+.intro p
+
+{
+    color: whitesmoke;
 }
 
 .intro h4
@@ -82,6 +94,7 @@ padding: 20px;
     font-style: italic;
     padding: 10px;
     margin: 10px;
+    color: whitesmoke;
 }
 
 .propuesta 
@@ -91,11 +104,13 @@ padding: 20px;
     padding-top: 90px;
     margin: 10px;
     font-size: xx-large;
+    color: whitesmoke;
 }
 
 .propuesta h2
 {
    font-style: oblique; 
+   color: whitesmoke;
 }
 
 .propuesta p
@@ -103,6 +118,7 @@ padding: 20px;
     text-align: center;
     margin: 10px;
     padding: 20px;
+    color: whitesmoke;
 }
 
 
@@ -385,18 +401,20 @@ footer
 
 .incentivo
 {
-    padding-top: 90px;
+    padding-top: 50px;
     text-align: center;
     font-size: xx-large;
+    color: whitesmoke;
 }
 
 .incentivo h3
 {
     text-align: center;
-    padding: 20px;
+    padding: 50px;
     margin: 10px;
-    font-style: oblique;
+    font-style:normal;
     font-size: xx-large;
+    
 }
 
 .incentivo h4
